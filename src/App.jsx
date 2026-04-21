@@ -1,8 +1,9 @@
 import "./App.css";
+import AvatarUploadForm from "./Components/AvatarUploadform";
 import FileUploadForm from "./Components/FileUploadForm";
 
 function App() {
-  return <FileUploadForm />;
+  return <AvatarUploadForm />;
 }
 
 export default App;
